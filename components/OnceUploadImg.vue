@@ -51,7 +51,6 @@
         </div>
       </div>
     </div>
-    <!-- 放大图片 -->
     <el-dialog :visible.sync="dialogImg.dialogImgVisible">
       <img
         width="100%"
