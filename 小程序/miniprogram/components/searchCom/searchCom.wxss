@@ -1,0 +1,33 @@
+/* components/searchCom.wxss */
+.searchCom{
+  width: 100%;
+  height: 110rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  box-sizing: border-box;
+  padding: 20rpx;
+}
+.searchCom_img{
+  width: 50rpx;
+  
+}
+.searchCom_input{
+  height: 60rpx;
+  background-color: #fff;
+  width: 100%;
+  margin:  0 20rpx;
+  border-radius: 30rpx;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 20rpx;
+}
+.disIN{
+  display: inline;
+  padding: 0;
+  background:none;
+  line-height: 0;
+  position: static;
+  overflow: visible;
+}

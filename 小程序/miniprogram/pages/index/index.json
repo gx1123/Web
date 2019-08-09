@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "mySearchCom": "../../components/searchCom/searchCom"
+  }
+}

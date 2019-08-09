@@ -1,0 +1,12 @@
+<!--components/searchCom.wxml-->
+<view class='searchCom' style='background:{{backColor}}'>
+  <image mode='widthFix' wx:if='{{leftImg}}' class='searchCom_img' src='{{leftImg}}'></image>
+  <view class='searchCom_input'>
+    <image src='../../image/fangda.png' style='width:32rpx;margin-right:20rpx' mode='widthFix'></image>
+    <input style='width:100%;font-size:24rpx' wx:if="{{typeSearch == 'input'}}" bindinput='setInputValue' placeholder='{{placeholder}}' value=''></input>
+    <view bindtap='clickView' style='width:100%;font-size:24rpx;color:#6C6C6C' wx:else>{{placeholder}}</view>
+  </view>
+  <button open-type="contact" class='disIN'>
+    <image mode='widthFix' catchtap='clickRightImg' wx:if='{{rightImg}}' class='searchCom_img' src='{{rightImg}}'></image>
+  </button>
+</view>

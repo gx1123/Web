@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/classify/classify",
+    "pages/shopping/shopping",
+    "pages/user/user"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "优鲜直采网",
+    "navigationBarTextStyle": "black"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取所在位置"
+    }
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#FF4724",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./image/1.png",
+        "selectedIconPath": "./image/1-1.png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "分类",
+        "iconPath": "./image/3.png",
+        "selectedIconPath": "./image/3-1.png"
+      },
+      {
+        "pagePath": "pages/shopping/shopping",
+        "text": "购物车",
+        "iconPath": "./image/4.png",
+        "selectedIconPath": "./image/4-1.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "./image/5.png",
+        "selectedIconPath": "./image/5-1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

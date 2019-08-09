@@ -1,0 +1,10 @@
+"use strict";
+let data = {
+    logs: []
+};
+Page({
+    data,
+    onLoad() {
+    }
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY2xhc3NpZnkuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJjbGFzc2lmeS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBR0EsSUFBSSxJQUFJLEdBQWlCO0lBQ3ZCLElBQUksRUFBRSxFQUFFO0NBQ1QsQ0FBQTtBQUNELElBQUksQ0FBQztJQUNILElBQUk7SUFDSixNQUFNO0lBRU4sQ0FBQztDQUNGLENBQUMsQ0FBQSIsInNvdXJjZXNDb250ZW50IjpbImludGVyZmFjZSBDbGFzc2lmeURhdGF7XHJcbiAgbG9nczogc3RyaW5nW11cclxufVxyXG5sZXQgZGF0YTogQ2xhc3NpZnlEYXRhID0ge1xyXG4gIGxvZ3M6IFtdXHJcbn1cclxuUGFnZSh7XHJcbiAgZGF0YSxcclxuICBvbkxvYWQoKSB7XHJcbiAgICBcclxuICB9XHJcbn0pXHJcbiJdfQ==
